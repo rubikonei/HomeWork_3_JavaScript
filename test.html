@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Тест</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" href="style.css"/>
+   </head>
+   <body>
+      <header>
+         <a href="index.html"><img src="webLogo.png" alt="logo" width="200" /></a>
+         <h1>Основы Web-технологий</h1>
+         <nav>
+            <ul>
+               <li><a href="index.html">Главная</a></li>
+               <li>
+                  <a href="webTechnologies.html">Web-технологии</a>
+                  <ul>
+                     <li><a href="html5.html">HTML5</a></li>
+                     <li><a href="css3.html">CSS3</a></li>
+                     <li><a href="javaScript.html">JavaScript</a></li>
+                  </ul>
+               </li>
+               <li><a href="calculator.html">Калькулятор</a></li>
+               <li><a href="test.html">Тест</a></li>
+            </ul>
+         </nav>
+      </header>
+      <form name="test">
+         <p>Какой тег предназначен для создания ссылок:<br />
+         <label><input type="radio" name="linkTest" value="doubleA" />&lt;a&gt;</label><br />
+         <label><input type="radio" name="linkTest" value="singleA" />&lt;a /&gt;</label><br />
+         <label><input type="radio" name="linkTest" value="doubleRef" />&lt;ref&gt;</label><br />
+         <label><input type="radio" name="linkTest" value="singleRef" />&lt;ref /&gt;</label></p>
+         <p>Какой тег предназначен для создания нумерованного списка:<br />
+         <label><input type="radio" name="orderedList" value="li" />&lt;li&gt;</label><br />
+         <label><input type="radio" name="orderedList" value="dl" />&lt;dl&gt;</label><br />
+         <label><input type="radio" name="orderedList" value="ol" />&lt;ol&gt;</label><br />
+         <label><input type="radio" name="orderedList" value="ul" />&lt;ul&gt;</label></p>
+         <p>Какой тег предназначен для передачи служебной информации браузеру:<br />
+         <label><input type="radio" name="meta" value="doubleInfo" />&lt;info&gt;</label><br />
+         <label><input type="radio" name="meta" value="singleInfo" />&lt;info /&gt;</label><br />
+         <label><input type="radio" name="meta" value="doubleMeta" />&lt;meta&gt;</label><br />
+         <label><input type="radio" name="meta" value="singleMeta" />&lt;meta /&gt;</label></p>
+         <p>Какие теги используються при создании таблицы:<br />
+         <label><input type="checkbox" name="table" value="bodyT" />&lt;bodyt&gt;</label><br />
+         <label><input type="checkbox" name="table" value="td" />&lt;td&gt;</label><br />
+         <label><input type="checkbox" name="table" value="groupCol" />&lt;groupcol&gt;</label><br />
+         <label><input type="checkbox" name="table" value="col" />&lt;col /&gt;</label></p>
+         <p>Какие атрибуты используються при создании форм:<br />
+         <label><input type="checkbox" name="formTest" value="autocomplete" />autocomplete</label><br />
+         <label><input type="checkbox" name="formTest" value="action" />action</label><br />
+         <label><input type="checkbox" name="formTest" value="charset" />charset</label><br />
+         <label><input type="checkbox" name="formTest" value="validate" />validate</label></p>
+         <p><input type="button" name="res" value="Результат" /></p>
+      </form>
+      <footer>
+         <address><a href="mailto:mail@gmail.com">Пишите: mail@gmail.com</a></address>
+         &copy; Костюк А.С., 2016г.
+      </footer>
+      <script src="js/test.js"></script>
+   </body>
+</html>

@@ -1,0 +1,145 @@
+* {
+   vertical-align: baseline;
+   font-weight: inherit;
+   font-family: inherit;
+   font-style: inherit;
+   font-size: 100%;
+   outline: 0;
+   padding: 0;
+   margin: 0;
+}
+body {
+   width: 800px;
+   margin: auto;
+   background-color: #808080;
+}
+header {
+   padding: 5px;
+   background-color: #ffffff;
+   border-radius: 10px; 
+}
+footer {
+   padding: 5px;
+   background-color: #ffffff;
+   border-radius: 10px; 
+   text-align: center;
+}
+main, div, article, form {
+   padding: 5px;
+   background-color: #ffffff;
+   border-radius: 10px;
+}
+.articleWithoutBottomRadius {
+   border-radius: 10px 10px 0px 0px;
+   padding-bottom: 0px;
+}
+aside {
+   float: right;
+   width: 30%;
+   margin: 5px;
+   padding: 5px;
+   border-radius: 10px;
+   background-color: #c0c0c0;
+}
+img {
+   float: left;
+   margin-right: 20px;
+   margin-bottom: 10px;
+}
+label {
+   margin: 5px;
+}
+body > a {
+   display: block;
+   background-color: #ffffff;
+   border-radius: 0px 0px 10px 10px;
+   padding-left: 5px;
+   padding-top: 0px;
+}
+/* отступы страницы webTechnologies.html */
+div ul {
+   margin-left: 30px;
+}
+dd {
+   margin-left: 30px;
+}
+/* Выпадающее меню */
+nav {
+   margin: 30px;
+}
+nav ul li {
+   display: inline;
+   list-style-type: none;
+   position: relative;
+}
+nav ul li ul {
+   display: none;
+}
+nav ul li:hover > ul{   
+   display: block;
+   position: absolute;
+   left: 0px;
+   top: 100%;
+   border: solid 0.5px;
+   background-color: #ffffff;
+   width: 70px;
+   height: 55px;
+   padding: 5px;
+   border-radius: 5px;
+}
+/* Калькулятор */
+table {
+   border-collapse: separate;
+   border-spacing: 2px 5px;
+   margin: auto;
+}
+td {
+   text-align: center;
+   vertical-align: middle;
+}
+button {
+   height: 25px;
+   width: 50px;
+}
+.doubleHorizontal {
+   height: 25px;
+   width: 102px;
+}
+.doubleVertical {
+   height: 55px;
+   width: 50px;
+}
+.result {
+   height: 25px;
+   width: 254px;
+}
+/* Шрифты, стили текста и т.п. */
+h1, h2, h3 {
+   font-family: Times New Roman;
+   font-weight: bold;
+   margin: 10px;
+}
+h1 {
+   font-size: 2em;
+}
+h2 {
+   font-size: 1.5em;
+}
+h3 {
+   font-size: 1.25em;
+}
+em, i , address{
+   font-style: italic;
+}
+dfn, strong, b {
+   font-weight: bold;
+}
+body > a, main, div, article, form {
+   font-family: Arial;
+   text-align: justify;
+}
+aside {
+   font-family: Arial;
+   text-align: justify;
+   font-size: 0.9em;
+}
